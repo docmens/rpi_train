@@ -3,6 +3,7 @@
 git config --list --show-origin	- get information about my git configuration
 git config --global user.email "you@example.com" - set email address, ***Please tell me who you are
 git config --global user.name "Your name" - set username
+git config --global credential.helper cache - Git will cache password for 15min (asks for password once afterwards)
 
 
 git status			- gives information about branch, changes to be commited
