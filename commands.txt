@@ -1,6 +1,8 @@
 
 
 git config --list --show-origin	- get information about my git configuration
+git config --global user.email "you@example.com" - set email address, ***Please tell me who you are
+git config --global user.name "Your name" - set username
 
 
 git status			- gives information about branch, changes to be commited
@@ -15,7 +17,7 @@ git checkout -b <branch> 	- create <branch> and switch to it
 git branch -d second_branch	- delecte <second branch>, only if already pushed and merged
 
 git remote add origin https://github.com/docmens/test_repository.git
-				- connect URL with origin
+				- connect URL with the variable 'origin'
 git push -u origin master
 git revert <hash code number>	- backtrack, when undoing changes
 git pull origin master 		- get the most recent changes, (when working on the master branch)
