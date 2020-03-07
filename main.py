@@ -1,1 +1,8 @@
-#this is the python main to control the train
+##### this is the python main to control the train
+
+
+
+print 'hello world'
+
+
+
