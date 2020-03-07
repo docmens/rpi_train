@@ -23,6 +23,7 @@ git push -u origin master
 git revert <hash code number>	- backtrack, when undoing changes
 git pull origin master 		- get the most recent changes, (when working on the master branch)
 
-
+git log				- get commit history 
+				- leave with 'q'
 
 
