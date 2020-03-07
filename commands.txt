@@ -1,0 +1,25 @@
+
+
+git config --list --show-origin	- get information about my git configuration
+
+
+git status			- gives information about branch, changes to be commited
+git add <filename> 		- add file to staging environment (must be done before commiting the file)
+git restore --staged <file>	- unstage the file
+git commit -m "comment" 	- commit files and give a text message ("comment")
+				- -m allows to commit a message
+
+git branch 			- give information about the branches used
+git checkout <branch> 		- switch to another branch (<branch>)
+git checkout -b <branch> 	- create <branch> and switch to it
+git branch -d second_branch	- delecte <second branch>, only if already pushed and merged
+
+git remote add origin https://github.com/docmens/test_repository.git
+				- connect URL with origin
+git push -u origin master
+git revert <hash code number>	- backtrack, when undoing changes
+git pull origin master 		- get the most recent changes, (when working on the master branch)
+
+
+
+
