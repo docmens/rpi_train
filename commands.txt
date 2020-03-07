@@ -14,6 +14,7 @@ git commit -m "comment" 	- commit files and give a text message ("comment")
 
 git branch 			- give information about the branches used
 git checkout <branch> 		- switch to another branch (<branch>)
+git checkout <#commit>		- switch to another commit version e.g. ee4b926
 git checkout -b <branch> 	- create <branch> and switch to it
 git branch -d second_branch	- delecte <second branch>, only if already pushed and merged
 
