@@ -14,14 +14,18 @@ git commit -m "comment" 	- commit files and give a text message ("comment")
 
 git branch 			- give information about the branches used
 git checkout <branch> 		- switch to another branch (<branch>)
+git checkout <#commit>		- switch to another commit version e.g. ee4b926
 git checkout -b <branch> 	- create <branch> and switch to it
 git branch -d second_branch	- delecte <second branch>, only if already pushed and merged
 
 git remote add origin https://github.com/docmens/test_repository.git
 				- connect URL with the variable 'origin'
+
+git fetch			- Download objects and refs from another repository
 git push -u origin master
 git revert <hash code number>	- backtrack, when undoing changes
 git pull origin master 		- get the most recent changes, (when working on the master branch)
+				- Fetch from and integrate with another repository or a local branch
 
 git log				- get commit history 
 				- leave with 'q'
